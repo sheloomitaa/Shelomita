@@ -25,7 +25,6 @@ class Kendaraan {
         return "Merk: " . $this->merk . ", Tahun: " . $this->tahun . ", Warna: " . $this->warna;
     }
 
-    // Method untuk mengubah warna kendaraan
     public function ubahWarna($warnaBaru) {
         $this->warna = $warnaBaru;
     }
